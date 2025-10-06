@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+/*menu*/
+header {
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img {
+    width: 150px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    margin-left: 20px;
+}
+header ul li:hover{
+    background-color: #763BD7;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 40px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*section quem somos*/
+.hero {
+    background-image: url('../img/phone-integra.png'); 
+    background-size: cover;
+    margin-left: -30px;
+    margin-top: -65px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.social-intro{
+    margin-bottom: -110px;
+    margin-left: -520px;
+}
+.social-intro h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.highlight {
+    color: #6A00FF; 
+    font-weight: bold; 
+}
+.social-intro p {
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+}
+.container_btn{
+    margin-bottom: -300px;
+}
+.btn_intro{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #6b38c4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+} 
+.btn_intro:hover {
+     background-color: #482683;
+     color: #fff;
+}
+/*section app*/
+.app-section {
+    background-image: url('../img/fundo-circle.png'); 
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .image-content {
+    flex: 1;
+    margin-top: -50px;  
+  } 
+  .text-content {
+    flex: 1;
+    color: white;
+    margin-left: 980px;
+    margin-bottom: 60px;
+  }
+  
+  .text-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }  
+  .button_app {
+    margin-left: 150px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .button_app:hover {
+     background-color: #fff;
+     color: #6b38c4;
+  }
+
+/*section podcast*/
+  .section_podcast {
+    background-image: url('../img/pod-integrar.png'); 
+    background-size: cover;
+    margin-left: -30px;
+    margin-top: -15px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.section_podcast .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.social_pod{
+    margin-bottom: -60px;
+    margin-left: -520px;
+}
+.social_pod h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6A00FF;
+}
+.social_pod p {
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+}
+.container_btn{
+    margin-bottom: -300px;
+}
+.btn_pod{
+    margin-top: 20px; 
+    display: inline-block;
+    padding: 15px 100px;
+    background-color: #6b38c4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+} 
+.btn_intro:hover {
+     background-color: #482683;
+     color: #fff;
+}
+
+/*section sarau*/
+.sarau {
+    background-image: url('../img/fundo-sarau.png'); 
+    background-color: #2b2b2b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.sarau h1 {
+    font-size: 36px;
+    letter-spacing: 9px;
+  
+}
+.sarau p {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.btn {
+    color: black;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 15px 45px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: -700px;
+    margin-top: 45px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #6b38c4;
+}
+
+
+/*section clube*/
+.section_clube {
+    background-image: url('../img/fundo_clube.png'); 
+    background-size: cover;
+    margin-left: -30px;
+    margin-top: -15px;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.section_clube .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clube{
+    margin-top: 400px;
+   
+}
+.clube h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.clube p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff; 
+}
+
+.btn_clube{
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 220px;
+    padding: 15px 100px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+} 
+.btn_clube:hover {
+     background-color: #482683;
+     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .hero .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-image {
+        display: block;
+    }
+
+    .hero-image img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-image {
+        display: none;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+
+    header ul {
+        flex-direction: column;
+        background-color: #2b2b2b;
+    }
+
+    header ul li {
+        margin: 10px 0;
+    }
+}
